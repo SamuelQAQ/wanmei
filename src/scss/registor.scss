@@ -1,0 +1,149 @@
+body{
+    background: url(../img/animate-bg.jpg) #ffffff center top no-repeat;
+}
+#logo_registor{
+    width: 818px;
+    margin: 0 auto 40px;
+    padding: 30px 0 0;
+    position: relative;
+    z-index: 10;
+    line-height: 35px;
+    color: #FFF;
+}
+#main_registor{
+    position: relative;
+    z-index: 10;
+    width: 818px;
+    height: auto;
+    padding: 60px 0;
+    background: #ffffff;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.05);
+    margin: 0 auto 56px;
+    .wrap_registor{
+        width: 396px;
+        background: #ffffff;
+        margin: 0 auto;
+        .tab_registor{
+            &>p{
+                color: #999999;
+                line-height: 18px;
+                margin: 0 0 34px;
+                font-size: 14px;
+                text-align: center;
+            }
+        }
+    }
+    h2{
+        color: #333333;
+        line-height: 36px;
+        font-size: 34px;
+        text-shadow: none;
+        font-weight: normal;
+        margin: 0 0 10px;
+        font: 700 45px/1 "Microsoft Yahei";
+        letter-spacing: 5px;
+        text-align: center;
+    }
+    
+    .ibox{
+        position: relative;
+        padding: 0 24px 0 10px;
+        height: 35px;
+        line-height: 35px;
+        border: 1px solid #5a5a5a;
+        background: rgba(255,255,255,0.3);
+        border-color: #dbdbdb;
+        margin-bottom: 14px;
+        input{
+            width: 100%;
+            padding: 7px 0;
+            vertical-align: top;
+            line-height: normal;
+            font-size: 16px;
+            background: none;
+            outline:medium;
+            border: none;
+            &:focus{
+                label{
+                    display: none;
+                }
+            }
+        }
+    }
+    .passwordlevel{
+        display: none;
+        margin: 4px 0;
+        height: 16px;
+        ul{
+            margin-left: -3px;
+            li{
+                float: left;
+                width: 33.3%;
+                span{
+                    color: #fff;
+                    background-color: #bcbcbc;
+                    margin-left: 3px;
+                    display: block;
+                    height: 16px;
+                    line-height: 15px;
+                    font-size: 12px;
+                    text-align: center;
+                }
+            }
+        }
+    }
+    .repassword{
+        margin-bottom: 34px;
+    }
+    .accept{
+        min-height: 22px;
+        height: auto;
+        position: relative;
+        line-height: 22px;
+        margin: 17px 0 5px;
+        input{
+            width: 12px;
+            height: 12px;
+            
+            position: absolute;
+            top: 6px;
+            left: 0;
+            border: 0 none;
+            outline: none;
+            background: #fff;
+        }
+        span{
+            color: #999;
+            padding-left: 20px;
+            font-size: 12px;
+            a{
+                color: #ff5a59;
+                text-decoration: underline;
+            }
+        }
+    }
+    .sub{
+        font-size: 16px;
+        background: #ed1919;
+        border: 1px solid #dbdbdb;
+        border-radius: 4px;
+        color: #FFF;
+        box-shadow: inset 1px 1px 0px rgba(255,255,255,0.2), inset -1px -1px 0px rgba(255,255,255,0.2);
+        display: block;
+        height: 40px;
+        line-height: 40px;
+        text-align: center;
+        margin-bottom: 15px;
+        width: 394px;
+    }
+    .login{
+        border: 2px solid #dbdbdb;
+        font-size: 16px;
+        color: #666666;
+        display: block;
+        height: 40px;
+        line-height: 40px;
+        text-align: center;
+        width: 392px;
+    }
+}

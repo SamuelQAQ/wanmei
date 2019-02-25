@@ -1,0 +1,83 @@
+#header_slider{
+    position: relative;
+    height: 439px;
+    background-color: #565656;
+    .hd{
+        position: absolute;
+        left: 0;
+        bottom: 30px;
+        width: 100%;
+        z-index: 1;
+        text-align: center;
+        a{
+            display: inline-block;
+            width: 11px;
+            height: 11px;
+            border-radius: 6px;
+            margin: 0 5px;
+            overflow: hidden;
+            background-color: #eff0f2;
+        }
+    }
+    .tempwrap{
+        position: relative;
+        width: auto;
+        ul{
+            width: 1423px;
+            left: 0px;
+            position: relative;
+            overflow: hidden;
+            padding: 0px;
+            margin: 0px;
+            li{
+                background: url("http://img.shop.wanmei.com/upload/ad/2018-12-26/0cb9ca00e3a9451a9aee4a961527051d.jpg") center top no-repeat;
+                float: left;
+                width: 1423px;
+                a{
+                    display: block;
+                    width: 1190px;
+                    height: 439px;
+                    margin: 0 auto;
+                }
+            }
+        }
+    }
+    .slider_pic{
+        &> a span{
+            display: block;
+            width: 100%;
+            height: 100%;
+            background: url(../img/base.png);
+            &:hover{
+                background-color: #0a0a0a;
+            }
+        }
+        .prev{
+            position: absolute;
+            top: 50%;
+            border-radius: 3px;
+            left: 50%;
+            width: 47px;
+            height: 80px;
+            margin-top: -40px;
+            margin-left: -595px;
+            span{
+                background-position: 0 -20px;
+            }
+        } 
+        .next{
+            position: absolute;
+            top: 50%;
+            border-radius: 3px;
+            right: 50%;
+            width: 47px;
+            height: 80px;
+            margin-top: -40px;
+            margin-right: -595px;
+            span{
+                background-position: -47px -20px;
+            }  
+        }
+         
+    }
+}

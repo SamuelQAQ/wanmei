@@ -1,0 +1,42 @@
+#footer{
+    padding: 25px 0 30px 0;
+    text-align: center;
+    ul{
+        margin: 0 auto;
+        overflow: hidden;
+        width: 755px;
+        &:nth-of-type(9){
+            border-right: none;
+        }
+        li{
+            float: left;
+            width: 70px;
+            height: 12px;
+            line-height: 12px;
+            border-right: 1px solid #DDD;
+            text-align: center;
+            margin-right: -1px;
+            a{
+                color: #666;
+                &:hover{
+                    color:#ea0f1f;
+                }
+            }
+        }       
+    }
+    .text{
+        padding: 24px 0 15px 0;
+        color: #999;
+        a{
+            color: #666;
+            &:hover{
+                color: #ea0f1f;
+            }
+        }
+    }
+    .footer_link{
+        a{
+            margin: 0 3px;
+        }
+    }
+}

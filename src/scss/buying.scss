@@ -1,0 +1,25 @@
+.buying{
+    padding-bottom: 40px;
+    background-color: #FFF;
+    .wrap{
+        position: relative;
+        padding-top: 146px;
+        .ad_list{
+            position: absolute;
+            top: -14px;
+            left: 0;
+            a:nth-last-of-type(3){
+                margin-left: 0;
+            }
+            a{
+                float: left;
+                margin-left: 16px;
+                width: 386px;
+                height: 160px;
+                img{
+                    border: 0;
+                }
+            }
+        }
+    }
+}
