@@ -139,3 +139,21 @@
         }
     }
 }
+.go_top {
+    position: absolute;
+    bottom: 50px;
+    left: 0;
+    width: 35px;
+    height: 35px;
+  }
+  
+  .go_top a {
+    height: 35px;
+  }
+  
+  .go_top a span {
+    width: 24px;
+    height: 22px;
+    margin-top: 6px;
+    background: url(../img/base.png) no-repeat -228px -20px;
+  }

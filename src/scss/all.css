@@ -184,11 +184,11 @@ h1 {
   color: #FFF;
 }
 
-#fixed_bar ul li:hover {
+#fixed_bar ul .log:hover {
   background-color: #e32332;
 }
 
-#fixed_bar ul li:hover p {
+#fixed_bar ul .log:hover + p {
   opacity: 1;
   left: -78px;
   transition: all .7s;
@@ -296,6 +296,25 @@ h1 {
   width: 35px;
   height: 35px;
   display: inline-block;
+}
+
+.go_top {
+  position: absolute;
+  bottom: 50px;
+  left: 0;
+  width: 35px;
+  height: 35px;
+}
+
+.go_top a {
+  height: 35px;
+}
+
+.go_top a span {
+  width: 24px;
+  height: 22px;
+  margin-top: 6px;
+  background: url(../img/base.png) no-repeat -228px -20px;
 }
 
 #top, #nav .wrap, .right_search, .section_main, .section_hot .hot_main, #about, #about .wrap > ul {
