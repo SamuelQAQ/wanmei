@@ -1,0 +1,147 @@
+body {
+  background: url(../img/animate-bg.jpg) #ffffff center top no-repeat;
+}
+
+#logo_registor {
+  width: 818px;
+  margin: 0 auto 40px;
+  padding: 30px 0 0;
+  position: relative;
+  z-index: 10;
+  line-height: 35px;
+  color: #FFF;
+}
+
+#main_registor {
+  position: relative;
+  z-index: 10;
+  width: 818px;
+  height: auto;
+  padding: 60px 0;
+  background: #ffffff;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.05);
+  margin: 0 auto 56px;
+}
+#main_registor .wrap_registor {
+  width: 396px;
+  background: #ffffff;
+  margin: 0 auto;
+}
+#main_registor .wrap_registor .tab_registor > p {
+  color: #999999;
+  line-height: 18px;
+  margin: 0 0 34px;
+  font-size: 14px;
+  text-align: center;
+}
+#main_registor h2 {
+  color: #333333;
+  line-height: 36px;
+  font-size: 34px;
+  text-shadow: none;
+  font-weight: normal;
+  margin: 0 0 10px;
+  font: 700 45px/1 "Microsoft Yahei";
+  letter-spacing: 5px;
+  text-align: center;
+}
+#main_registor .ibox {
+  position: relative;
+  padding: 0 24px 0 10px;
+  height: 35px;
+  line-height: 35px;
+  border: 1px solid #5a5a5a;
+  background: rgba(255, 255, 255, 0.3);
+  border-color: #dbdbdb;
+  margin-bottom: 14px;
+}
+#main_registor .ibox input {
+  width: 100%;
+  padding: 7px 0;
+  vertical-align: top;
+  line-height: normal;
+  font-size: 16px;
+  background: none;
+  outline: medium;
+  border: none;
+}
+#main_registor .ibox input:focus label {
+  display: none;
+}
+#main_registor .passwordlevel {
+  display: none;
+  margin: 4px 0;
+  height: 16px;
+}
+#main_registor .passwordlevel ul {
+  margin-left: -3px;
+}
+#main_registor .passwordlevel ul li {
+  float: left;
+  width: 33.3%;
+}
+#main_registor .passwordlevel ul li span {
+  color: #fff;
+  background-color: #bcbcbc;
+  margin-left: 3px;
+  display: block;
+  height: 16px;
+  line-height: 15px;
+  font-size: 12px;
+  text-align: center;
+}
+#main_registor .repassword {
+  margin-bottom: 34px;
+}
+#main_registor .accept {
+  min-height: 22px;
+  height: auto;
+  position: relative;
+  line-height: 22px;
+  margin: 17px 0 5px;
+}
+#main_registor .accept input {
+  width: 12px;
+  height: 12px;
+  position: absolute;
+  top: 6px;
+  left: 0;
+  border: 0 none;
+  outline: none;
+  background: #fff;
+}
+#main_registor .accept span {
+  color: #999;
+  padding-left: 20px;
+  font-size: 12px;
+}
+#main_registor .accept span a {
+  color: #ff5a59;
+  text-decoration: underline;
+}
+#main_registor .sub {
+  font-size: 16px;
+  background: #ed1919;
+  border: 1px solid #dbdbdb;
+  border-radius: 4px;
+  color: #FFF;
+  box-shadow: inset 1px 1px 0px rgba(255, 255, 255, 0.2), inset -1px -1px 0px rgba(255, 255, 255, 0.2);
+  display: block;
+  height: 40px;
+  line-height: 40px;
+  text-align: center;
+  margin-bottom: 15px;
+  width: 394px;
+}
+#main_registor .login {
+  border: 2px solid #dbdbdb;
+  font-size: 16px;
+  color: #666666;
+  display: block;
+  height: 40px;
+  line-height: 40px;
+  text-align: center;
+  width: 392px;
+}
+
+/*# sourceMappingURL=registor.css.map */

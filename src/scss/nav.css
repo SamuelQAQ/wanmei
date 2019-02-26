@@ -217,3 +217,25 @@
   color: #474747;
   font-size: 12px;
 }
+
+.right_search .keyword_list {
+  display: none;
+  z-index: 10000;
+  position: absolute;
+  top: 41px;
+  left: 1px;
+  width: 270px;
+  background-color: #FFF;
+  border: 1px solid #CCC;
+}
+
+.right_search .keyword_list li {
+  font-size: 14px;
+  color: #474747;
+  cursor: pointer;
+  padding: 10px;
+}
+
+.right_search .keyword_list li:hover {
+  background-color: aqua;
+}

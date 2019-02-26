@@ -1,0 +1,27 @@
+.buying {
+  padding-bottom: 40px;
+  background-color: #FFF;
+}
+.buying .wrap {
+  position: relative;
+  padding-top: 146px;
+}
+.buying .wrap .ad_list {
+  position: absolute;
+  top: -14px;
+  left: 0;
+}
+.buying .wrap .ad_list a:nth-last-of-type(3) {
+  margin-left: 0;
+}
+.buying .wrap .ad_list a {
+  float: left;
+  margin-left: 16px;
+  width: 386px;
+  height: 160px;
+}
+.buying .wrap .ad_list a img {
+  border: 0;
+}
+
+/*# sourceMappingURL=buying.css.map */

@@ -192,4 +192,23 @@
                 font-size: 12px;
             }
         }
+        .keyword_list{
+            display: none;
+            z-index: 10000;
+            position: absolute;
+            top:41px;
+            left: 1px;
+            width: 270px;
+            background-color: #FFF;
+            border: 1px solid #CCC;
+            li{
+                font-size: 14px;
+                color: #474747;
+                cursor: pointer;
+                padding: 10px;
+                &:hover{
+                    background-color: aqua;
+                }
+            }
+        }
     }

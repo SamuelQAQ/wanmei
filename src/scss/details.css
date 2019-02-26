@@ -77,9 +77,16 @@
   text-align: center;
 }
 
+#details .wrap .left .slide .little ul li:nth-of-type(1) {
+  opacity: 1;
+}
+
 #details .wrap .left .slide .little ul li img {
   cursor: pointer;
   margin-right: 10px;
+  width: 100px;
+  height: 100px;
+  border: none;
 }
 
 #details .wrap .right {

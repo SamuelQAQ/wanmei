@@ -39,7 +39,7 @@ gulp.task('uglifyhtml',function(){
 
 //5.合并压缩js
 gulp.task('alljs',function(){
-	return gulp.src('src/js/*.js')
+	return gulp.src('src/script/js/*.js')
 	.pipe(concat('all.js'))//合并以及重命名
 	.pipe(gulp.dest('dist/script/js'))//输出
 	.pipe(rename('all.min.js'))//重命名
@@ -66,7 +66,7 @@ gulp.task('runimg',function(){
 
 gulp.task('default',function(){
 	//watch的第一个参数监听的文件的路径，第二个参数是监听运行的任务名
-	watch(['src/*.html'],gulp.parallel('uglifyhtml'));  //添加了 gulp.series 和 gulp.parallel 方法用于组合任务
+	watch(['src/*.html','src/sass/*.scss','src/script/js/*.js'],gulp.parallel('uglifyhtml','runsass','alljs'));  //添加了 gulp.series 和 gulp.parallel 方法用于组合任务
 	//gulp.parallel() –并行运行任务 
 	//gulp.series() –运行任务序列,拥有先后顺序。 
 });
