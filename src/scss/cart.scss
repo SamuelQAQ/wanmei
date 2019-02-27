@@ -1,3 +1,13 @@
+%clearfix {
+    *zoom: 1;
+    &:before, &:after {
+      content: " ";
+      display: table;
+    }
+    &:after {
+      clear: both;
+    }
+} 
 .right_nav {
     position: fixed;
     top: 50%;
@@ -90,6 +100,7 @@
 
         dl {
             margin: 29px 0;
+            @extend %clearfix;
         }
 
         dt {

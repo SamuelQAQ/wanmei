@@ -1,3 +1,16 @@
+.cart_wrap .cart_list dl {
+  *zoom: 1;
+}
+
+.cart_wrap .cart_list dl:before, .cart_wrap .cart_list dl:after {
+  content: " ";
+  display: table;
+}
+
+.cart_wrap .cart_list dl:after {
+  clear: both;
+}
+
 .right_nav {
   position: fixed;
   top: 50%;
@@ -7,10 +20,12 @@
   overflow: hidden;
   z-index: 999;
 }
+
 .right_nav a {
   float: left;
   width: 50px;
 }
+
 .right_nav .small {
   height: 50px;
   background-color: #1f1f20;
@@ -19,24 +34,31 @@
   float: left;
   width: 50px;
 }
+
 .right_nav > a:nth-of-type(1) {
   background-image: url(../img/icon-people.png);
 }
+
 .right_nav > a:nth-of-type(1):hover {
   background-image: url(../img/icon-people-hov.png);
 }
+
 .right_nav > a:nth-of-type(2) {
   background-image: url(../img/icon-heart.png);
 }
+
 .right_nav > a:nth-of-type(2):hover {
   background-image: url(../img/icon-heart-hov.png);
 }
+
 .right_nav > a:nth-of-type(4) {
   background-image: url(../img/icon-talk.png);
 }
+
 .right_nav > a:nth-of-type(4):hover {
   background-image: url(../img/icon-talk-hov.png);
 }
+
 .right_nav .cart_btn {
   padding: 45px 0 20px;
   background: #f85535 url(../img/icon-shop.png) no-repeat center 20px;
@@ -44,9 +66,11 @@
   text-align: center;
   font-size: 16px;
 }
+
 .right_nav .cart_btn:hover {
   background-color: #ff7357;
 }
+
 .right_nav .cart_btn span {
   margin: 10px auto 0;
   display: block;
@@ -59,6 +83,7 @@
   text-align: center;
   line-height: 25px;
 }
+
 .right_nav .back_btn {
   text-align: center;
   color: #1f1f20;
@@ -69,43 +94,52 @@
   padding-bottom: 6px;
 }
 
-.wrap {
+.cart_wrap {
   width: 1239px;
   margin: 0 auto;
 }
-.wrap .cart_list {
+
+.cart_wrap .cart_list {
   margin-bottom: 43px;
+  margin-top: 44px;
 }
-.wrap .cart_list dl {
+
+.cart_wrap .cart_list dl {
   margin: 29px 0;
 }
-.wrap .cart_list dt a {
+
+.cart_wrap .cart_list dt a {
   display: block;
   position: relative;
 }
-.wrap .cart_list dt img {
+
+.cart_wrap .cart_list dt img {
   width: 72px;
   height: 72px;
   border: 1px solid #ddd;
 }
-.wrap .cart_list dd {
+
+.cart_wrap .cart_list dd {
   text-align: left;
   margin-left: 18px;
 }
-.wrap .cart_list dd h1 {
+
+.cart_wrap .cart_list dd h1 {
   width: 436px;
   display: block;
   font-size: 14px;
   color: #424242;
   font-weight: normal;
 }
-.wrap .cart_list dd h1 a {
+
+.cart_wrap .cart_list dd h1 a {
   max-width: 400px;
   height: 20px;
   overflow: hidden;
   color: #424242;
 }
-.wrap .cart_list dd h2 {
+
+.cart_wrap .cart_list dd h2 {
   max-width: 400px;
   display: block;
   margin: 5px 0 10px;
@@ -114,61 +148,75 @@
   font-weight: normal;
   overflow: hidden;
 }
-.wrap .cart_list td {
+
+.cart_wrap .cart_list td {
   background-color: #FFF;
   border-bottom: 1px solid #ededed;
   text-align: center;
   vertical-align: middle;
 }
-.wrap .cart_list td .stock {
+
+.cart_wrap .cart_list td .stock {
   padding-top: 8px;
   color: #999;
 }
-.wrap .cart_list td .del {
+
+.cart_wrap .cart_list td .del {
   display: inline-block;
   width: 22px;
   height: 20px;
   padding-top: 2px;
   border-radius: 11px;
 }
-.wrap .cart_list td .del span {
+
+.cart_wrap .cart_list td .del span {
   display: inline-block;
   width: 8px;
   height: 8px;
   overflow: hidden;
   background: url(../img/base.png) no-repeat -292px 0;
 }
-.wrap .cart_list table {
+
+.cart_wrap .cart_list table {
   width: 100%;
 }
-.wrap .cart_list table .discount {
+
+.cart_wrap .cart_list table .discount {
   width: 100px;
 }
-.wrap .cart_list table .num {
+
+.cart_wrap .cart_list table .num {
   width: 200px;
 }
-.wrap .cart_list table .price {
+
+.cart_wrap .cart_list table .price {
   width: 150px;
 }
-.wrap .cart_list table .operation {
+
+.cart_wrap .cart_list table .operation {
   width: 150px;
 }
-.wrap .cart_list table td {
+
+.cart_wrap .cart_list table td {
   height: 54px;
   font-size: 14px;
   color: #666;
 }
-.wrap .cart_list table .state {
+
+.cart_wrap .cart_list table .state {
   width: 111px;
 }
-.wrap .cart_list table .state span {
+
+.cart_wrap .cart_list table .state span {
   margin-right: 10px;
 }
-.wrap .cart_list table .state span label {
+
+.cart_wrap .cart_list table .state span label {
   cursor: pointer;
   position: absolute;
 }
-.wrap .cart_list .amount {
+
+.cart_wrap .cart_list .amount {
   margin-right: 0;
 }
 
@@ -179,20 +227,6 @@
   height: 18px;
   vertical-align: middle;
 }
-.checkbox label {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 16px;
-  height: 16px;
-  border: 1px solid #d4d4d4;
-  background-color: #FFF;
-  cursor: pointer;
-}
-.checkbox label:hover {
-  background: #FFF url(../img/base.png) no-repeat -78px -116px;
-}
-
 .f_left {
   float: left;
 }
@@ -212,9 +246,11 @@
   border: 1px solid #e0e0e0;
   vertical-align: middle;
 }
+
 .amount .reduce {
   background: url(../img/base.png) no-repeat -234px -97px;
 }
+
 .amount span {
   display: inline-block;
   width: 23px;
@@ -222,6 +258,7 @@
   vertical-align: middle;
   cursor: pointer;
 }
+
 .amount input {
   width: 32px;
   height: 20px;
@@ -231,6 +268,7 @@
   vertical-align: middle;
   font-size: 12px;
 }
+
 .amount .plus {
   background: url(../img/base.png) no-repeat -233px -132px;
 }
@@ -249,20 +287,25 @@
   font-size: 14px;
   color: #666;
 }
+
 .total_bar .f_left span {
   margin-right: 10px;
 }
+
 .total_bar .f_left a {
   margin-left: 22px;
   color: #666;
 }
+
 .total_bar .f_left a:hover {
   color: #e90404;
 }
+
 .total_bar .f_right {
   position: relative;
   float: right;
 }
+
 .total_bar .f_right input {
   width: 188px;
   height: 50px;
@@ -273,9 +316,11 @@
   color: #FFF;
   background-color: #e32332;
 }
+
 .total_bar .f_right #num {
   font-size: 24px;
 }
+
 .total_bar .f_right span {
   margin: 0 7px;
   color: #e90404;
@@ -289,7 +334,9 @@
   background-color: #FFF;
   color: #666;
   text-align: center;
+  margin-top: 44px;
 }
+
 .cart_null span {
   display: inline-block;
   width: 80px;
@@ -298,9 +345,19 @@
   background: url(../img/base.png) no-repeat -78px -132px;
   vertical-align: -11px;
 }
+
 .cart_null a {
   padding: 0 5px;
   color: #e90404;
 }
 
-/*# sourceMappingURL=cart.css.map */
+tbody tr:nth-of-type(1){
+  display: none;
+}
+
+input[type=checkbox]{
+  width: 16px;
+height: 16px;
+border: 1px solid #d4d4d4;
+background-color: #FFF;
+}

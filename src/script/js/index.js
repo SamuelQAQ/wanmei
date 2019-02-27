@@ -1,7 +1,7 @@
 //拼接数据
 ;(function () {
 		$.ajax({
-			url: 'http://localhost/html5-1810/Part%202/wanmei/wanmei/php/wanmeidata.php',
+			url: 'http://10.31.162.48/html5-1810/Part%202/wanmei/wanmei/php/wanmeidata.php',
 			dataType: 'json'
 		}).done(function (data) {
 			var $html = '<div class="main_content">';
@@ -11,8 +11,8 @@
 				 <div class="main_product">
 				 	<a class="like" href="javascript:;"><span></span> <i>${value.sailnumber}</i></a>
 			 		<a>
-			 			<a href="http://localhost/html5-1810/Part%202/wanmei/wanmei/dist/details.html?sid=${value.sid}" target="_blank">
-			 				<img data-original="${value.url}" />
+			 			<a href="http://10.31.162.48/html5-1810/Part%202/wanmei/wanmei/src/details.html?sid=${value.sid}" target="_blank">
+			 				<img src="${value.url}" />
 			 			</a>
 					</a>
 					<p class="product_name ellipsis" title="${value.titile}">
@@ -23,7 +23,7 @@
 					</p>
 					<div class="add_cart">
 					<a class="stars" target="_blank" href="javascript:;" target="_blank">
-					</a> <a class="add_btn" target="_blank" href="http://10.31.162.48/html5-1810/Part%202/wanmei/wanmei/dist/details.html?sid=${value.sid}">
+					</a> <a class="add_btn" target="_blank" href="http://10.31.162.48/html5-1810/Part%202/wanmei/wanmei/src/details.html?sid=${value.sid}">
 					<span>
 					</span>
 					 加入购物车
@@ -74,7 +74,9 @@
 //图片懒加载
 ;(function () {
 	$(function () {
-		$("img").lazyload();
+		$("img").lazyload({
+			effect : "fadeIn"
+		});
 	});
 })();
 

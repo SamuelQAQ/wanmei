@@ -1,3 +1,16 @@
+.wrap .cart_list dl {
+  *zoom: 1;
+}
+
+.wrap .cart_list dl:before, .wrap .cart_list dl:after {
+  content: " ";
+  display: table;
+}
+
+.wrap .cart_list dl:after {
+  clear: both;
+}
+
 .right_nav {
   position: fixed;
   top: 50%;
